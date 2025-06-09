@@ -6,7 +6,7 @@ function StayProductive() {
    <div className="container grid grid-cols-1
     md:grid-cols-2 gap-[30px] place-items-center">
 <div>
-    <img src="/src/assets/images/illustration-stay-productive.png"/>
+    <img src="/images/illustration-stay-productive.png"/>
 </div>
 <div className="text-white">
     <h3 className="font-medium text-[35px] leading-[50px]">
@@ -29,7 +29,7 @@ function StayProductive() {
   gap-[15px] w-fit 
  hover:text-[#42b0d1] transition-colors duration-200"> 
     see how fylo works
-<img src="/src/assets/images/icon-arrow.svg"
+<img src="/images/icon-arrow.svg"
 className="w-[20px] h-[20px] object-contain animate-[moveRight_1s_ease-in-out_infinite]"/>
 </a>
 </div>

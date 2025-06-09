@@ -8,7 +8,7 @@ function Landing() {
     <div className='container'>
 <div className=' element-center flex-col pt-[200px] '>
 <div className='w-[750px] max-w-full'>
-<img src='/src/assets/images/landing-img.png' alt='landing-img'
+<img src='/images/landing-img.png' alt='landing-img'
  className='w-full h-fit px-16'/>
 </div>
 
@@ -33,7 +33,7 @@ function Landing() {
 </div>
     </div>
     <div className='w-full h-[200px]'>
-        <img src="/src/assets/images/bg-curvy-desktop.svg"
+        <img src="/images/bg-curvy-desktop.svg"
      alt="" className='w-full h-full' /></div>
 </section>
 

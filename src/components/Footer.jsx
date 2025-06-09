@@ -28,14 +28,14 @@ const [socialicons,setsocialicons]= useState([
 <div className='container'>
 <a href='/'>
 
-<img src='/src/assets/images/logo.svg'
+<img src='/images/logo.svg'
 className='w-[175px] h-[66px] object-contain'
 />
 </a>
 
 <div className='mt-[30px] flex justify-between flex-wrap flex-col md:flex-row gap-[30px]'>
   <div className='flex items-start gap-[15px] w-[340px] max-w-full'>
-<img src='/src/assets/images/icon-location.svg'
+<img src='/images/icon-location.svg'
 className='w-[18px] h-[18px] object-contain'
 />
 <p className='font-normal text-sm tracking-[0.8px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui soluta
@@ -46,7 +46,7 @@ className='w-[18px] h-[18px] object-contain'
 <div>
 {contact.map((item)=>(
 <div key={item.text} className='flex items-center gap-[15px] mb-[15px] last-of-type:mb-0'>
-  <img src={`src/assets/images/${item.icon}`} className='w-[18px]  h-[18px] object-contain'
+  <img src={`/images/${item.icon}`} className='w-[18px]  h-[18px] object-contain'
   />
 <p>{item.text}</p>
 </div>

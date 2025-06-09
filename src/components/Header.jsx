@@ -25,7 +25,7 @@ useEffect(()=>{
                 
             
             <div className="container  flex justify-between items-center gap-[30px] sm:gap-0 flex-col  sm:flex-row">
-            <a href="/"><img src="/src/assets/images/logo.svg" /></a>
+            <a href="/"><img src="/images/logo.svg" /></a>
             <nav>
                 <ul className="flex items-center gap-12">
                     {links.map((link) => (
