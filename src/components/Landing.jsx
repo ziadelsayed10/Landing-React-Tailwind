@@ -7,19 +7,19 @@ function Landing() {
 <section className='bg-[#1c2230]'>
     <div className='container'>
 <div className=' element-center flex-col pt-[200px] '>
-<div className='w-[750px] max-w-full'>
+<div className='w-[250px] lg:w-[750px] max-w-full'>
 <img src='/images/landing-img.png' alt='landing-img'
- className='w-full h-fit px-16'/>
+ className='w-full h-fit lg:px-16'/>
 </div>
 
-<div className=' text-white text-center px-16'>
+<div className=' text-white text-center lg:px-16'>
     <h1 className='text-[21px] md:text-[34px] font-semibold mb-[15px] '>
         All Your Files In One Secure Location
         <br/>
         <br/>
         accessible anywhere.
     </h1>
-    <p className='font-normal text-lg px-[15px]
+    <p className='font-normal text-lg lg:px-[15px]
      md:w-[600px] max-w-full mb-[30px]'> 
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Quaerat sed animi magnam recusandae illum esse,

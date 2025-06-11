@@ -7,7 +7,7 @@ const [testData,setTestData] = useState([
   {
 
     id:1,
-    desc: "Lorem fmkfmfkvmfkvmfkvmkfvmkfmvkfmv ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit!",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit!",
 image:"profile-1.jpg",
 position:"Founder & CEO, Huddle",
 name:"Elsayed mostafa"
@@ -15,7 +15,7 @@ name:"Elsayed mostafa"
   {
 
     id:2,
-    desc: "Lorem fjnjvnfjvfkvmfkvkfvmfkmvkfmvkfmkfmvkfv  ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit!",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit!",
 image:"profile-2.jpg",
 position:"Founder & CEO, Huddle",
 name:"Elsayed nyazii"
@@ -23,7 +23,7 @@ name:"Elsayed nyazii"
   {
 
     id:3,
-    desc: "Lorem xkfkvkvmfkvmfvkl ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit!",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit!",
 image:"profile-3.jpg",
 position:"Founder & CEO, Huddle",
 name:" marii Elsayd "
@@ -40,7 +40,7 @@ name:" marii Elsayd "
   <img src='/images/bg-quotes.png'/>
 </div>
 <div className='grid grid-cols-1 md:grid-cols-2
- lg:grid-cols-3 gap-[40px] relative z-50'>
+ lg:grid-cols-3 gap-[40px] relative z-40'>
 {testData.map((item)=>(
   <TestimonialBox key={item.id}desc={item.desc} image={item.image}
    position={item.position} name={item.name} />

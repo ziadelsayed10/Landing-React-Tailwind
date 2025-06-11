@@ -30,7 +30,7 @@ function StayProductive() {
  hover:text-[#42b0d1] transition-colors duration-200"> 
     see how fylo works
 <img src="/images/icon-arrow.svg"
-className="w-[20px] h-[20px] object-contain animate-[moveRight_1s_ease-in-out_infinite]"/>
+className="w-[20px] h-[20px] z-10 object-contain animate-[moveRight_1s_ease-in-out_infinite]"/>
 </a>
 </div>
    </div>

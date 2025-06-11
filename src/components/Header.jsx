@@ -4,7 +4,7 @@ function Header() {
 const headerRef = useRef();
 useEffect(()=>{
     window.addEventListener("scroll", () =>{
-        if (window.scrollY >100) {
+        if (window.scrollY >45) {
             headerRef.current.style.background = "#0c1524";
             headerRef.current.style.padding = "20px 0";
         }else{
@@ -30,7 +30,7 @@ useEffect(()=>{
                 <ul className="flex items-center gap-12">
                     {links.map((link) => (
                         <li  key={link}>
-                            <a href= {`/${link.toLowerCase()}`} 
+                            <a href= '/' 
                             className="text-white opacity-[0.9]
                              hover:opacity-[1]
                               hover:underline  
